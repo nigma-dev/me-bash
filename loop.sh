@@ -23,3 +23,11 @@ do
     echo $x
     x=$((x + 1))
 done
+
+#example-3 ** for loop
+
+name='I write some code.'
+for word in $name
+do
+    echo $word
+done

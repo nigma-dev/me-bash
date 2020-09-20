@@ -8,12 +8,10 @@
 # done
 
 
-#example
-#intent ** I will print the numbers form 1 to 10
-
-counter=1
-while [ $counter -le 10 ]
+#example-1 ** while loop
+x=1
+while [ $x -le 10 ]
 do
-    echo $counter
-    counter=$((counter + 1))
+    echo $x
+    x=$((x + 1))
 done
